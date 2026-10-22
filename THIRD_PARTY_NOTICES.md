@@ -1,22 +1,34 @@
 # Third-Party Notices
 
-This project was conceptually informed in part by the open-source project:
+This project includes adapted concepts and code from:
 
-- `Jakeschincariol/youtube-agent-skill`
+- Project: `Jakeschincariol/youtube-agent-skill`
 - Original author: Jake Schincariol
-- Original license: MIT License
 - Repository: https://github.com/Jakeschincariol/youtube-agent-skill
+- License: MIT License
 
-The HAMJI YouTube Showrunner package is a redesigned system with its own
-showrunner architecture, quality gate, scoring logic, workflow, templates,
-and implementation.
+The `/yt-script` hook-scoring workflow, the five-property weakest-link scoring concept, and the 21-hook taxonomy are adapted from that project. HAMJI modifications include Korean/English token handling, Korean patterns/examples, ChatGPT plugin packaging, and Showrunner integration.
 
-The original project emphasized useful concepts including:
-- treating title + thumbnail as a single packaging unit,
-- comparing videos against a channel's own median rather than raw views alone,
-- retention analysis,
-- channel-level auditing.
+## Original MIT License
 
-No claim is made that the original project guarantees performance.
-Any reused or adapted MIT-licensed portions must retain the original copyright
-and permission notice as required by the MIT License.
+MIT License
+
+Copyright (c) 2026 Jake Schincariol
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
