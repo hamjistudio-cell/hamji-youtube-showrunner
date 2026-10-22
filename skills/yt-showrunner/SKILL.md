@@ -50,7 +50,7 @@ Write:
 - Current growth stage
 
 ### STEP 2 — Market scan
-Call or emulate `/yt-market`.
+Use `/yt-market`.
 
 Find current demand:
 - repeated viewer problems/desires
@@ -60,7 +60,7 @@ Find current demand:
 - underserved angles
 
 ### STEP 3 — Outlier scan
-Call or emulate `/yt-outlier`.
+Use `/yt-outlier`.
 
 Prefer:
 `Outlier Ratio = video views / median views of comparable videos on that channel`
@@ -68,19 +68,22 @@ Prefer:
 Raw views alone are not enough.
 
 ### STEP 4 — Idea transformation
-Call or emulate `/yt-idea`.
+Use `/yt-idea`.
 
 Do not return clones.
 Transform:
 `winning mechanism + user's authority + audience pain/desire + fresh angle`
 
 ### STEP 5 — Packaging first
-Call or emulate `/yt-package`.
+Use `/yt-package`.
 
 Create title + thumbnail as ONE unit before script drafting.
 
-### STEP 6 — Retention architecture
-Call or emulate `/yt-retention`.
+### STEP 6 — Script + scored hooks
+Use `/yt-script`. Generate five hook candidates, run the bundled bilingual hook scorer, keep the top two, then write a beat-by-beat script with `[ON SCREEN: ...]` directions. Do not skip scoring.
+
+### STEP 7 — Retention architecture
+Use `/yt-retention`.
 
 Design:
 - 0-5 sec promise confirmation
@@ -91,13 +94,13 @@ Design:
 - payoff
 - next-video bridge
 
-### STEP 7 — 500K Quality Gate
-Call or emulate `/yt-500k-gate`.
+### STEP 8 — 500K Quality Gate
+Use `/yt-500k-gate`.
 
 Do not green-light weak concepts because the user is excited.
 If score < 80, repair the weakest dimension first.
 
-### STEP 8 — Decision
+### STEP 9 — Decision
 Return exactly:
 - MAKE
 - REVISE
@@ -112,7 +115,8 @@ MARKET SIGNAL
 OUTLIER EVIDENCE
 VIDEO CONCEPT
 TITLE + THUMBNAIL
-HOOK
+HOOK SCORE PANEL
+SCRIPT
 RETENTION MAP
 500K QUALITY SCORE
 DECISION
