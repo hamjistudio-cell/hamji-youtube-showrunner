@@ -1,0 +1,5 @@
+channel,title,views,url,duration,published_at
+Example Channel,Video A,10000,https://youtube.com/example-a,600,2026-10-01
+Example Channel,Video B,12000,https://youtube.com/example-b,620,2026-10-05
+Example Channel,Video C,11000,https://youtube.com/example-c,580,2026-10-10
+Example Channel,Video D,50000,https://youtube.com/example-d,610,2026-10-15
